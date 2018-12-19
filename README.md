@@ -18,7 +18,7 @@ Microsoft Azure Tools for Microsoft Visual Studio 2017 - v2.9.10730.2
 NuGet パッケージ マネージャー   4.6.0  
 
 ### DI
-下記を参考にDIしようとしている。  
+他チーム（Functionsでない処理など）との平仄合わせ、共通化のために下記を参考にDIしようとしている。  
 https://blog.wille-zone.de/post/dependency-injection-for-azure-functions/  
 Nuget : [Willezone.Azure.WebJobs.Extensions.DependencyInjection](https://www.nuget.org/packages/Willezone.Azure.WebJobs.Extensions.DependencyInjection)  
 
