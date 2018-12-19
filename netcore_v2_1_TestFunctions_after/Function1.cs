@@ -7,14 +7,17 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using netcore_v2_1_TestFunctions_after.Services;
+using Willezone.Azure.WebJobs.Extensions.DependencyInjection;
 
-namespace netcore_TestFunctions
+namespace netcore_v2_1_TestFunctions_after
 {
     public static class Function1
     {
         [FunctionName("Function1")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [Inject]IMyService myService,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");

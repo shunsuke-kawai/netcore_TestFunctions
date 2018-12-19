@@ -1,0 +1,8 @@
+{
+  "extensions":[
+    {
+      "name": "Startup",
+      "typeName": "netcore_v2_1_TestFunctions_after.Startup, netcore_v2_1_TestFunctions_after, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ]
+}

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore_v2.1_TestFunctions", "netcore_v2.1_TestFunctions\netcore_v2.1_TestFunctions.csproj", "{8D26622D-9B9C-4713-BE6E-23A0A9A9ACEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcore_v2_1_TestFunctions", "netcore_v2_1_TestFunctions\netcore_v2_1_TestFunctions.csproj", "{8D26622D-9B9C-4713-BE6E-23A0A9A9ACEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore_v2.0_TestFunctions", "netcore_v2.0_TestFunctions\netcore_v2.0_TestFunctions.csproj", "{6BE7102C-5325-4E90-ADD2-F70304136F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcore_v2_0_TestFunctions", "netcore_v2_0_TestFunctions\netcore_v2_0_TestFunctions.csproj", "{6BE7102C-5325-4E90-ADD2-F70304136F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore_v2_1_TestFunctions_after", "netcore_v2_1_TestFunctions_after\netcore_v2_1_TestFunctions_after.csproj", "{E535CD49-F7DE-42B3-ADF5-59D38EF969DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6BE7102C-5325-4E90-ADD2-F70304136F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BE7102C-5325-4E90-ADD2-F70304136F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BE7102C-5325-4E90-ADD2-F70304136F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E535CD49-F7DE-42B3-ADF5-59D38EF969DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E535CD49-F7DE-42B3-ADF5-59D38EF969DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E535CD49-F7DE-42B3-ADF5-59D38EF969DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E535CD49-F7DE-42B3-ADF5-59D38EF969DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
