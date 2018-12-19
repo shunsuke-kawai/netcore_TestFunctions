@@ -92,7 +92,7 @@ https://github.com/shunsuke-kawai/netcore_TestFunctions/tree/master/netcore_v2_1
 - 下記を参考に Directory.Build.targets を v2.1 のプロジェクト直下に配置  
 https://github.com/Azure/azure-functions-host/issues/3386#issuecomment-419565714
 
-- v2.0 で生成されている extensions.json をプロジェクトに追加⇒常にコピーする を設定  
+- v2.0 で生成されている extensions.json をv2.1 のプロジェクト直下に追加⇒常にコピーする を設定  
 ![image](https://user-images.githubusercontent.com/6369070/50201679-5c506700-039e-11e9-9cbc-6f26be04d388.png)
 
 - 🎉v2.1 でも Startup が走るようになった🎉
