@@ -98,14 +98,14 @@ https://github.com/Azure/azure-functions-host/issues/3386#issuecomment-419565714
 - 🎉v2.1 でも Startup が走るようになった🎉
 ![image](https://user-images.githubusercontent.com/6369070/50202147-58bddf80-03a0-11e9-98b0-80a9f3280c2e.png)
 
-- 対応後プロジェクト
+- 対応後プロジェクト  
 https://github.com/shunsuke-kawai/netcore_TestFunctions/tree/master/netcore_v2_1_TestFunctions_after
 
 
 # 疑問
-- こんなことをやってやらないといけないのか？
-- extensions.json にはバージョンも持ってるみたい（これが食い違っても実行はできたが気持ち悪い
-- この他の extension が増えた場合、逐次 v2.0 でビルド ⇒ extensions.json をコピー ⇒ v2.1 に戻す みたいな手順をやらないといけない？
+- こんなことをやってやらないといけないのか？  
+- extensions.json にはバージョンも持ってるみたい（これが食い違っても実行はできたが気持ち悪い  
+- この他の extension が増えた場合、逐次 v2.0 でビルド ⇒ extensions.json をコピー ⇒ v2.1 に戻す みたいな手順をやらないといけない？  
 
 # その他参考リンク
 Startup は別にして .NET Standard 2.0 で作れってこと？  
